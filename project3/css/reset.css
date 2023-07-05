@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, table, dl, dd {
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	font-size: 16px;
+}
+a {
+	text-decoration: none;
+	color: #222;
+}
+ul, ol {
+	list-style: none;
+}
+img {
+	max-width: 100%;
+	vertical-align: top;
+	border: none;
+}
+body {
+	line-height: 1;
+	font-family: "Open Sans", "Noto Sans KR", sans-serif;
+	font-size: 1em;
+	color: #000;
+}
+::placeholder {
+	font-family: "Open Sans", sans-serif;
+	font-size: 0.875em;
+	text-align: left;
+	font-weight: 600;
+	color: #bbb;
+}
+button {
+    border: 0;
+    cursor: pointer;
+}
+body.fixed {
+	overflow-y: hidden;
+}
